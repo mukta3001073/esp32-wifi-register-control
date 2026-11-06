@@ -8,7 +8,6 @@ An IoT telemetry node simulated in Wokwi (ESP32 DevKit V1). It reads a potentiom
 |---------------|--------------------------------------|
 | Potentiometer | SIG -> GPIO 4, VCC -> 3V3, GND -> GND |
 | Status LED    | GPIO 2 -> LED -> resistor -> GND      |
-<img width="844" height="965" alt="circuit png" src="https://github.com/user-attachments/assets/4e206252-3fdc-4a1c-a4d0-038fc601a9b4" />
 
 ## Features
 
@@ -34,6 +33,8 @@ Trade-off: Wi-Fi is not connected during the short sampling window. Moving the s
 
 - `sketch.ino` - firmware
 - `diagram.json` - Wokwi circuit
+## 🔗 Simulation Links
+Wokwi Simulation: https://wokwi.com/projects/479188580392201217
 
 ## How to run
 
